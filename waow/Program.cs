@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Figgle;
 
 namespace waow
 {
@@ -7,27 +8,24 @@ namespace waow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to waow (dumbassMP)");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("were music tell me please");
+            Console.WriteLine("dumbass shit xd");
+        
+            
+            string Font = Console.ReadLine();
+            
+            if (Font.Equals("1"));
+            {
+                string Text = Console.ReadLine();
+                
+                Console.WriteLine( 
+                    FiggleFonts.Ogre.Render(Text));
+            }
 
-            string DirMusic = Console.ReadLine();
-
-            Console.WriteLine("okok so ur music is in " + DirMusic);
             
             
-            DirectoryInfo d = new DirectoryInfo(DirMusic);    
-            FileInfo[] Files = d.GetFiles();  
-            Console.WriteLine("So ur music is");  
-            Console.WriteLine("---------------------------------------------------------------------------------------");  
-            foreach (FileInfo file in Files)  
-            {                  
-                Console.WriteLine(file.Name);  
-            }  
-            Console.ReadKey();  
-   
+            
+            
+            
 
 
         }
