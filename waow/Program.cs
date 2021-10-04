@@ -92,6 +92,10 @@ namespace waow
                     FiggleFonts.Slant.Render(Text));
             }
             
+            Console.WriteLine("------------------------");
+            
+            Thread.Sleep(1000);
+            
             Console.WriteLine( 
                 FiggleFonts.Slant.Render("Ok thanks oomfie"));
             Thread.Sleep(1000);
